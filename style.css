@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poopins' , sans-serif ;
+    background-color: white;
+}
+#main {
+    margin: 2rem 2rem;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(238, 238, 238);
+    border-radius: 5px;
+    flex-direction: column;
+}
+#title{
+    color: black;
+    text-align: center;
+}
+#title h1{
+    font-size: 4rem;
+}
+#imgdiv{
+    background: white;
+    padding: 10px;
+    margin: 0px;
+    flex-direction: column;
+    text-align: center;
+    display: block;
+    justify-content: center;
+
+}
+#img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+#img-caption{
+    margin: 15px 0 5px 0;
+}
+figcaption{
+    display:block;
+}
+section{
+    display: block;
+}
+h2 {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#capt , #ch-capt{
+    font-style: italic;
+    align-self: flex-start;
+    color:black;
+    padding: 0 2rem;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+#footer{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin: auto;
+}
